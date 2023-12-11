@@ -7,3 +7,5 @@ library(usethis)
 # Making changes for fun
 library(palmerpenguins)
 data(package = "palmerpenguins", "penguins")
+
+hist(penguins$flipper_length_mm)
